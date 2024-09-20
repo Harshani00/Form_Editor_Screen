@@ -1,0 +1,116 @@
+.main-box {
+    width: 79%;
+    height: 700px; 
+    position: absolute;
+    margin-left: 315px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: white;
+    overflow: hidden; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .box-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .left-content {
+    text-align: left;
+    padding-left: 20px;
+    width: 100%; 
+    transition: width 0.3s ease; 
+  }
+  
+  .left-content.with-image {
+    width: 40%;
+  }
+  
+  .title {
+    font-size: 26px;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .start-button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .start-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .uploaded-image {
+    width: 500px; 
+    height: 450px; 
+    border-radius: 10px;
+    margin-right: 100px;
+  }
+  
+  .right-content {
+    width: 45%; 
+    display: flex;
+    margin-right: 100px;
+  }
+  
+  /* Text box styling */
+  .text-box {
+
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 4px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .title-box {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .description-box {
+    font-size: 20px;
+  }
+
+/*Email Screen*/
+.email-input {
+    width:50%; 
+    border: none; 
+    border-bottom: 1px solid #ccc; 
+    outline: none; 
+    padding: 8px; 
+    margin-top: 10px; 
+  }  
+  
+  .alert {
+    margin-top: 10px; 
+    width: 30%;
+  }
+  .name-input{
+    width:50%; 
+    border: none; 
+    border-bottom: 1px solid #ccc; 
+    outline: none; 
+    padding: 8px; 
+    margin-top: 10px;
+  }
